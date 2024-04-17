@@ -4,8 +4,8 @@
     <div class="media-content">
       <div class="content has-text-centered">
         <p>
-          <div class="pc-calendar"><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-titole">Events_Everything</div></strong></div>
-          <div class="testhome"><div class="sp-calendar"><div class=""></div><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-title">Events_Everything</div></strong></div></div>
+          <div class="pc-calendar"><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-titole">jimoto events</div></strong></div>
+          <div class="testhome"><div class="sp-calendar"><div class=""></div><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-title">jimoto events</div></strong></div></div>
         </p>
       <div class="sp-calendar">
       </div>
@@ -101,12 +101,12 @@
         <div class="column is-5">
           <% if user_signed_in?%>
           <br>
-          <%= link_to "新規イベント作成", new_event_path, class: "button is-warning is-fullwidth" %>
+          <%= link_to "新規イベント作成", new_event_path, class: "button is-info is-fullwidth" %>
           <% else %>
           <br>
-          <%= link_to "ログイン", new_user_session_path, class: "button is-warning is-fullwidth" %>
+          <%= link_to "ログイン", new_user_session_path, class: "button is-info is-fullwidth" %>
           <br>
-          <%= link_to "新規登録", new_user_registration_path, class: "button is-warning is-fullwidth" %>
+          <%= link_to "新規登録", new_user_registration_path, class: "button is-info is-fullwidth" %>
           <% end %>
         </div>
       </div>
