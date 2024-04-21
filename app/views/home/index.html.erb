@@ -7,6 +7,11 @@
           <div class="pc-calendar"><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-titole">jimoto events</div></strong></div>
           <div class="testhome"><div class="sp-calendar"><div class=""></div><strong class="is-size-1" style="font-family: sans-serif;"><div class="t-title">jimoto events</div></strong></div></div>
         </p>
+        <div>
+        <% @regions.each do |region|%>
+        <%= region.regionname %>
+        <% end %>
+        </div>
       <div class="sp-calendar">
       </div>
         <div class="pc-calendar">
