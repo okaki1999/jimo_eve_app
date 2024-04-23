@@ -9,9 +9,7 @@
         </p>
         <div>
         <% @regions.each do |region|%>
-        <button>
-        <%= region.regionname %>
-        </button>
+        <%= link_to region.regionname class: "button is-warning is-fullwidth" %>
         <% end %>
         </div>
       <div class="sp-calendar">
